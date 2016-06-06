@@ -105,4 +105,21 @@ public class RomansNumbersTest {
     public void testNineteenReturnXIX() throws Exception {
         Assert.assertEquals("XIX", romansNumbers.getRomanNumbers(19));
     }
+
+    @Test
+    public void testTwentyReturnXX() throws Exception {
+        Assert.assertEquals("XX",romansNumbers.getRomanNumbers(20));
+
+    }
+
+    @Test
+    public void testThirtyFiveReturnXXXV() throws Exception {
+        Assert.assertEquals("XXXV", romansNumbers.getRomanNumbers(35));
+
+    }
+
+    @Test
+    public void testFortyReturnXL() throws Exception {
+        Assert.assertEquals("XL", romansNumbers.getRomanNumbers(40));
+    }
 }
