@@ -122,4 +122,10 @@ public class RomansNumbersTest {
     public void testFortyReturnXL() throws Exception {
         Assert.assertEquals("XL", romansNumbers.getRomanNumbers(40));
     }
+
+    @Test
+    public void testOneThousandNineHundredsNinetyNineReturnMCMXCIX() throws Exception {
+        Assert.assertEquals("MCMXCIX", romansNumbers.getRomanNumbers(1999));
+
+    }
 }
