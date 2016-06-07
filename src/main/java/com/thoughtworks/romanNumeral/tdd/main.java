@@ -1,6 +1,6 @@
 package com.thoughtworks.romanNumeral.tdd;
 
-public class main {
+public class Main {
     public static void main(String[] args) throws RomansNumbersException {
         RomansNumbers romansNumbers = new RomansNumbers();
 
