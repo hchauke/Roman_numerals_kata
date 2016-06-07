@@ -126,6 +126,5 @@ public class RomansNumbersTest {
     @Test
     public void testOneThousandNineHundredsNinetyNineReturnMCMXCIX() throws Exception {
         Assert.assertEquals("MCMXCIX", romansNumbers.getRomanNumbers(1999));
-
     }
 }
